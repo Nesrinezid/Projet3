@@ -15,8 +15,6 @@ class Money:
             return self.val != other.val
         return  self.val != other
 
-
-    
 m = Money(10)
 print( m == 10)
 print( m != 11)
